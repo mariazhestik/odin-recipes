@@ -1,0 +1,18 @@
+body {
+    background-color: #f0b27a;
+    font-family: 'Helvetica', sans-serif;
+    color: #3D3D3D
+}
+
+#recipe-card {
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+}
+
