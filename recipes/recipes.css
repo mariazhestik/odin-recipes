@@ -1,18 +1,39 @@
 body {
-    background-color: #f0b27a;
+    background-color: #faf3e0;
     font-family: 'Helvetica', sans-serif;
-    color: #3D3D3D
+    color: #333333;
+    text-align: center;
 }
 
-#recipe-card {
-    background-color: antiquewhite;
+#recipe-card p, ul, ol {
+    display: inline-block;
+    text-align: left;
 }
 
 h1 {
     text-align: center;
 }
 
+hr {
+    margin: 15px 0 30px 0;
+}
+
 h2 {
     font-weight: bold;
+    margin-bottom: -10px;
 }
+
+.description p {
+    color: #555555;
+}
+
+.ingredients-card {
+    padding: 5px 0 5px 0;
+    margin: 0 auto;
+    max-width: 250px;
+    background-color: #E6F5E6;
+    border: 1px solid #CDE2CD;
+    border-radius: 5px;
+}
+
 
